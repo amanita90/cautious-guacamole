@@ -1,0 +1,24 @@
+YAY I DID IT!!! How to create a file on git and push it into a remote repo
+
+1. i cloned the cautious-guacamole repo into a chosen local directory (use the cd command, and that opens a repo, which will be the local directory the remote directory gets cloned into)
+2. used git clone <URL> to clone the github repo into my local repo. can easily copy/paste URL by navigating to the repo in github and clicking the clone/download button
+3. used git status to look at the files now contained in my local repo
+4. entered the cautious-guacamole repo by using the cd command
+5. used touch <finally> and then touch <i-did-it> to create two new files within cautious-guacamole
+6. used git add -A to add the new files into the index, which preps them to be committed
+7. used git commit to commit the new changes made to cautious-guacamole
+8. this brings up a window where you can type in a message describing the changes you made for the commit
+9. after done typing your message, hit ESC and then type :wq to submit the message
+10. now that the commit is done, you can push the commits into your remote repo on github
+11. used git push origin master to push my commits.
+
+im not totally sure of the <origin> and <master> commands. i know master is the branch i am pushing the commits into. what does origin mean?
+
+Next things to practice::
+try pushing commits into a different branch of cautious-guacamole
+try creating a new branch within cautious guacamole using GIT and git checkout -b <branchname> command
+delete files from different repos
+practice this whole thing again
+is there a way to edit text in here so that i can emphasize words or commands?
+
+woohoo i did it!
